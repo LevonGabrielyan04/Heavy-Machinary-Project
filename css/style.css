@@ -726,3 +726,22 @@ h6,
 .service-item.active-state .service-text::before {
     top: -55px;
 }
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+@media (min-width: 600px) {
+    .font-size-24 {
+        font-size: 2em;
+    }
+}
+
+.small-padding{
+    padding-left: 20px !important;
+    padding-right: 27px !important;
+}
+
+.wrap-word {
+  word-break: break-all;
+}
